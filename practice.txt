@@ -1,0 +1,68 @@
+1. convert to uppercase:
+Try:
+  text=string(input("Write a string of text: "))
+  string uppercase = text.upper()
+  print(uppercase)
+except: text != string
+  print(invalid input)
+
+2. add 2 numbers
+Try: 
+  number1 = int(input("enter first number")
+  number2 = int(input("enter second number")
+  sum = number1 + number2
+  print(sum)
+except: invalid input
+print("invalid input")
+
+3. add unknown amoutn of numbers
+option = y
+total = 0
+while option != n
+  try:
+    number = int(input("enter a number"))
+    total = total + number
+    try:
+      option = char(inptut("would you like to enter another number (y/n)")
+    except: option != y or n
+      print("invalid input assuming n")
+      option = n
+  except: number != int
+    print("invalid input, try again")
+
+print(total)
+  
+4. random number with user defined max
+import random
+option = y
+while option != n
+  try:
+    max = int(input("enter maximum number: "))
+    random.randint(1, max)
+    print(random)
+    try:
+      option = char(input("generate another number? (y/n)")
+    except: option != y or n
+    print("invalid input assuming n")
+    option = n
+  except: max != int
+  print("invalid input, try again")
+
+exit code
+
+5. random number outputs left or right
+numberOfOutputs = 0
+odd = 0
+even = 0
+while numberOfOutputs <= 10
+  random.randint(1,10)
+  if random % 2 = 1
+    print("left")
+    odd++
+  else
+    print("right")
+    even++
+  numberOfOutputs++
+print("Lefts: {odd}")
+print("Right: {even}")
+  
